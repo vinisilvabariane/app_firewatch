@@ -18,10 +18,10 @@ class Connection
         set_exception_handler([$this->errorHandler, 'exceptionHandler']);
 
         switch ($_SERVER["HTTP_HOST"]) {
-            case "10.1.5.20":
-                $this->host = "10.1.5.70";
-                $this->user = "multi_app_site_dash";
-                $this->password = 's7j&xd9s$hmdfk';
+            case "":
+                $this->host = "";
+                $this->user = "";
+                $this->password = 's7j&';
                 break;
             default:
                 $this->host = "localhost";
